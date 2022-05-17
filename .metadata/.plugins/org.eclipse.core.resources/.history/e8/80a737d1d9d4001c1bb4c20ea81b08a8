@@ -1,0 +1,24 @@
+package com.example.demo.model;
+
+
+	@NoArgsConstructor
+	@AllArgsConstructor
+	//@ToString(exclude = {"custId"})
+	//@EqualsAndHashCode
+	//@ReqArgsConstructor
+	@Data
+	public class Customer {
+
+		@Setter
+		@Getter
+		private long custId;
+		@Setter
+		@Getter
+		private String name;
+		@Setter
+		@Getter
+		private double balance;
+		
+	}
+
+}
